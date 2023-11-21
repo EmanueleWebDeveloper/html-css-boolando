@@ -9,14 +9,14 @@ html{
 }
 header{
     color: white;
+    position: fixed;
+    background-color: #ff6900;
 }
+
 a{
     text-decoration: none;
 }
 
-header{
-    background-color: #ff6900;
-}
 
 
 header nav{
@@ -50,11 +50,17 @@ header nav figure div img{
 .flex-pics {
 display: flex;
 justify-content: space-between;
-flex-grow: calc(3);
 }
 
 main {
     width: 80%; 
-    text-align: center;
 }
 
+main picture div{
+    width: 100%;
+   
+}
+
+main picture div img{
+   width: 200px; 
+}
