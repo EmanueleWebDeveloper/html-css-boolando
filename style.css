@@ -11,7 +11,7 @@ header{
     color: white;
     position: fixed;
     width: 100%;
-    margin-top: 0;
+    top: 0;
     background-color: #ff6900;
 }
 
@@ -34,11 +34,11 @@ header nav ul{
     display: flex;
     gap: 10px;
     font-size: 15px;
+    align-items: center;
 
 }
 
 header nav ul li{
-    /* display: inline-block; */
     padding: 10px;
     list-style-type: none;
     margin-top: 15px;
@@ -49,25 +49,49 @@ header nav figure div img{
 }
 
 
-.flex-pics {
-display: flex;
-justify-content: space-between;
-}
-
 main {
     width: 80%; 
-    top: 50px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-main picture div{
-    width: 100%;
-   
+main img{
+   width: 100%; 
 }
-
-main picture div img{
-   width: 200px; 
-}
-
 .flex-pics{
-flex-wrap: wrap;
+    flex-basis: calc(100% / 3);
 }
+
+
+
+
+  
+
+/* footer{
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #1a1a1a;
+    height: 80px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+footer div p{
+    font-size: 10px;
+} */
+
+
+
+
+  
+            
