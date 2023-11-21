@@ -10,6 +10,9 @@ html{
 header{
     color: white;
     position: fixed;
+    width: 100%;
+    margin-top: 0;
+
     background-color: #ff6900;
 }
 
@@ -54,6 +57,7 @@ justify-content: space-between;
 
 main {
     width: 80%; 
+    margin-top: 50px;
 }
 
 main picture div{
@@ -63,4 +67,8 @@ main picture div{
 
 main picture div img{
    width: 200px; 
+}
+
+.flex-pics{
+flex-wrap: wrap;
 }
