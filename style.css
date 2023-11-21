@@ -33,7 +33,6 @@ header nav{
 
 header nav ul{
     display: flex;
-    gap: 10px;
     font-size: 15px;
     align-items: center;
 
@@ -105,4 +104,13 @@ footer .social{
 footer ul li{
     list-style-type: none;
     
+}
+footer .social svg{
+    fill: white;
+    width: 14px;
+}
+body header ul li a svg{
+        fill: white;
+        width: 14px;
+        
 }
